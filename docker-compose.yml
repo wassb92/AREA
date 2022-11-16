@@ -1,0 +1,39 @@
+version: '3.7'
+services:
+  server:
+    build: ./server
+    ports:
+      - 8080:8080
+    environment:
+      - PORT=8080
+      - WEBPORT=8081
+      - TZ=Europe/Paris
+    networks:
+      - area
+
+  client_mobile:
+    build: ./client/mobile
+    networks:
+      - area
+    volumes:
+      - apk:/app/apk
+
+  client_web:
+    build: ./client/web
+    ports:
+      - 8081:8081
+    depends_on:
+      - server
+      - client_mobile
+    environment:
+      - WDS_SOCKET_PORT=8081
+    networks:
+      - area
+    volumes:
+      - apk:/usr/src/app/public/apk
+
+networks:
+  area:
+volumes:
+  node_modules:
+  apk:

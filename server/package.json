@@ -1,0 +1,43 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "simple back service",
+  "main": "server.js",
+  "scripts": {
+    "test": "node --trace-warnings  server.js",
+    "start": "nodemon server.js",
+    "tests": "jest",
+    "tests-debug": "jest --detectOpenHandles",
+    "swagger-autogen": "node swagger/swagger.js"
+  },
+  "author": "tao and marc",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/msal-node": "^1.14.2",
+    "axios": "^0.27.2",
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "google-auth-library": "^8.5.2",
+    "googleapis": "^108.0.0",
+    "jimp": "^0.16.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.1",
+    "mongoose-unique-validator": "^3.1.0",
+    "node-schedule": "^2.1.0",
+    "nodemailer": "^6.8.0",
+    "passport": "^0.6.0",
+    "passport-facebook": "^3.0.0",
+    "swagger-autogen": "^2.22.0",
+    "swagger-ui-express": "^4.1.4",
+    "twilio": "^3.83.1"
+  },
+  "devDependencies": {
+    "jest": "^29.1.2",
+    "nodemon": "^2.0.20",
+    "supertest": "^6.3.0"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "575329364877",
+    "project_id": "thinking-volt-363813",
+    "storage_bucket": "thinking-volt-363813.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:575329364877:android:14d636c340a792e0a2abc4",
+        "android_client_info": {
+          "package_name": "com.example.area"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "575329364877-9s82pqc7q1a1tpv4uv8ieivaf4pl5vi0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.area",
+            "certificate_hash": "38f2a0f7f6ca40016070baebb0e1d336dbadbd2c"
+          }
+        },
+        {
+          "client_id": "575329364877-08kin3agm6dsafkhu6bhf2uco0m5v0g4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXxlpCwC2PfBMPSoMiRadbmAdDZFvzfwI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "575329364877-08kin3agm6dsafkhu6bhf2uco0m5v0g4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "575329364877-hev6r0fkk4k5jcd5ggcggupf7ealmptg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "catt-area"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
